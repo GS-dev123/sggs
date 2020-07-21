@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+.nav-back{
+    background: url(./assets/capa.png) no-repeat center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 107px;
+    margin-top: 2px;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: transparent;
+   background: transparent;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+.navbar li a{
+    color: #fff !important;
+    font-size: 17px;
+    font-weight: bold;
+}
+.navbar li a:hover{
+    background-color: none;
+    border-bottom: 5px solid #8e25d6;
+}
+.navbar-toggle {
+    border-color: #fff;
+    background-color: #fff;
+    color: #fff !important;
+}
+.titulo-texto{
+      color: #fff;
+      font-family: Montserrat, sans-serif;
+      font-size: 35px;
+}
+.up{
+    padding-top: 145px;
+}
+.paragrafo{
+    color:#fff;
+    line-height: 25px;
+    font-size: 17px;
+    font-family: Montserrat, sans-serif;
+}
+button[type=submit]{
+    margin-top: 30px;
+    background-color: transparent;
+    border-radius: 40px;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 30px;
+    font-family: Montserrat, sans-serif;
+}
+.onda1{
+    background: url(./assets/onda1.png)no-repeat center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    left: 0px;
+    top: -300px;
+}

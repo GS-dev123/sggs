@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+*{
+    font-family:'Roboto', sans-serif;   
+}
+.rounded{
+  width: 30%;
+  margin-top: 40px;
+}
+.navbar, .rodape{
+  background-color: #0a091a;
+  height: 50px;
+}
+h6{
+  margin-top: 10px;
+  font-weight: bold;
+}
